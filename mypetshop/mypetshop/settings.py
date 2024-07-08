@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'mypetshop.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'casto782$mydatabase',  # Nombre de tu base de datos en PythonAnywhere
+        'NAME': 'casto782$default',  # Nombre de tu base de datos en PythonAnywhere
         'USER': 'casto782',             # Usuario de MySQL en PythonAnywhere
         'PASSWORD': 'holamundo,.73',  # Contraseña de MySQL en PythonAnywhere
         'HOST': 'casto782.mysql.pythonanywhere-services.com',  # Host de la base de datos en PythonAnywhere
