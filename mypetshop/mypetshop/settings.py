@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'mypetshop.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mydatabase',  # Nombre de tu base de datos
-        'USER': 'root',         # Usuario de MySQL
-        'PASSWORD': 'holamundo,.73',         # Contraseña de MySQL
-        'HOST': 'localhost',    # Host de la base de datos (puede ser 'localhost' o IP)
-        'PORT': '3307',         # Puerto de MySQL (por defecto es 3306)
+        'NAME': 'casto782$mydatabase',  # Nombre de tu base de datos en PythonAnywhere
+        'USER': 'casto782',             # Usuario de MySQL en PythonAnywhere
+        'PASSWORD': 'holamundo,.73',  # Contraseña de MySQL en PythonAnywhere
+        'HOST': 'casto782.mysql.pythonanywhere-services.com',  # Host de la base de datos en PythonAnywhere
+        'PORT': '3306',  # Puerto de MySQL en PythonAnywhere (por defecto es 3306)
     }
 }
 
